@@ -9,6 +9,6 @@ security:
 logging:  
 #  file: logs/${spring.application.name}.log
   level:
-    com.netflix.hystrix: 'OFF'
+    org.springframework.cloud.netflix.hystrix: 'DEBUG'
     org.springframework.cloud: 'DEBUG'
     com.atsistemas: 'DEBUG'
