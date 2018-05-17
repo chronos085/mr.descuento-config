@@ -2,3 +2,10 @@ turbine:
   clusterNameExpression: "'default'"
   appConfig: MICROSERVICE,MICROSERVICE-OAUTH2
   combineHostPort: true
+
+logging:  
+#  file: logs/${spring.application.name}.log
+  level:
+    com.netflix.ribbon: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'

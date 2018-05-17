@@ -1,10 +1,7 @@
 spring:
   rabbitmq:
     addresses: ${vcap.services.${PREFIX:}rabbitmq.credentials.uri:amqp://${RABBITMQ_HOST:localhost}:${RABBITMQ_PORT:5672}}
-
-management:
-  context-path: /admin
-    
+   
 zuul:
   add-host-header: true
   ignore-security-headers: false
@@ -46,3 +43,11 @@ ribbon:
     enabled: true   
   eager-load:
     enabled: false
+
+logging:  
+#  file: logs/${spring.application.name}.log
+  level:
+    org.springframework.cloud.netflix.zuul: 'DEBUG'
+    org.springframework.cloud.netflix.ribbon: 'DEBUG'
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'
