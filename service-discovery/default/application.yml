@@ -21,7 +21,7 @@ security:
     role: SYSTEM
     
 logging:  
-  file: logs/${spring.application.name}.log
+#  file: logs/${spring.application.name}.log
   level:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'DEBUG'
