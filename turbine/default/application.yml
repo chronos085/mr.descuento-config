@@ -1,0 +1,4 @@
+turbine:
+  clusterNameExpression: "'default'"
+  appConfig: MICROSERVICE,MICROSERVICE-OAUTH2
+  combineHostPort: true
