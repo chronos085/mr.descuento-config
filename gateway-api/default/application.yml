@@ -43,6 +43,14 @@ ribbon:
     enabled: true   
   eager-load:
     enabled: false
+    
+security:
+  basic:
+    enabled: false
+  user:
+    name: zuul
+    password: a39WqtRWAaXhckj
+    role: SYSTEM
 
 logging:  
 #  file: logs/${spring.application.name}.log

@@ -3,6 +3,14 @@ turbine:
   appConfig: MICROSERVICE,MICROSERVICE-OAUTH2
   combineHostPort: true
 
+security:
+  basic:
+    enabled: false
+  user:
+    name: turbine
+    password: CYVTJdEtAcCxyJe
+    role: SYSTEM
+  
 logging:  
 #  file: logs/${spring.application.name}.log
   level:
