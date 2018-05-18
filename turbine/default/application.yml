@@ -1,7 +1,7 @@
 turbine:
-  clusterNameExpression: "'default'"
-  appConfig: MICROSERVICE,MICROSERVICE-OAUTH2
-  combineHostPort: true
+  cluster-name-expression: 'default'
+  app-config: MICROSERVICE,MICROSERVICE-OAUTH2
+  combine-host-port: true
 
 security:
   basic:
