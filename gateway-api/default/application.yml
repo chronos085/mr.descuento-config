@@ -11,8 +11,8 @@ zuul:
   routes:
     security-server:
       path: /oauth/**
-       url: http://localhost:8501/oauth
-#      serviceId: OAUTH-SERVER
+#      url: http://localhost:8501/oauth
+      serviceId: OAUTH-SERVER
       stripPrefix: false
     hello-services:
       path: /mo2/**
