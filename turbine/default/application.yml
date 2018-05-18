@@ -5,7 +5,7 @@ turbine:
 
 security:
   basic:
-    enabled: true
+    enabled: false
   user:
     name: turbine
     password: CYVTJdEtAcCxyJe
