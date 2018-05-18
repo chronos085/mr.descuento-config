@@ -1,5 +1,5 @@
 turbine:
-  cluster-name-expression: 'default'
+  cluster-name-expression: "'default'"
   app-config: MICROSERVICE,MICROSERVICE-OAUTH2
   combine-host-port: true
 
