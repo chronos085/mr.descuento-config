@@ -1,6 +1,6 @@
 security:
   basic:
-    enabled: false
+    enabled: true
   user:
     name: oauth
     password: tvmpGBG7kX2WYJM
