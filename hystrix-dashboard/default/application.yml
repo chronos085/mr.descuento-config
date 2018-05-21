@@ -4,7 +4,7 @@ security:
   user:
     name: hystrix
     password: 2tanhY4x9jNbBKQ
-    role: SYSTEM
+    role: ROLE_ADMIN
     
 logging:  
 #  file: logs/${spring.application.name}.log
