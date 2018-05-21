@@ -18,7 +18,7 @@ security:
   user:
     name: eureka
     password: khTUcUUQ33WkJGC
-    role: SYSTEM
+    role: ROLE_ADMIN
     
 logging:  
 #  file: logs/${spring.application.name}.log
