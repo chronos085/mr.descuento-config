@@ -4,7 +4,7 @@ security:
   user:
     name: oauth
     password: tvmpGBG7kX2WYJM
-    role: SYSTEM
+    role: ROLE_ADMIN
     
 logging:  
 #  file: logs/${spring.application.name}.log
