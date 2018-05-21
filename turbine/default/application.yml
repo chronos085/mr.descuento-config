@@ -9,7 +9,7 @@ security:
   user:
     name: turbine
     password: CYVTJdEtAcCxyJe
-    role: ROLE_ADMIN
+    role: ADMIN
   
 logging:  
 #  file: logs/${spring.application.name}.log
