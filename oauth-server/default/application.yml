@@ -1,10 +1,10 @@
 security:
   basic:
-    enabled: false
-  user:
-    name: oauth
-    password: tvmpGBG7kX2WYJM
-    role: ADMIN
+    enabled: true
+#  user:
+#    name: oauth
+#    password: tvmpGBG7kX2WYJM
+#    role: ADMIN
     
 #logging:  
 #  file: logs/${spring.application.name}.log
