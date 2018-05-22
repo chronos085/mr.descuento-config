@@ -46,8 +46,8 @@ ribbon:
     enabled: false
     
 security:
-  basic:
-    enabled: false
+#  basic:
+#    enabled: false
   user:
     name: zuul
     password: a39WqtRWAaXhckj
