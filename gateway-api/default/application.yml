@@ -45,13 +45,13 @@ ribbon:
   eager-load:
     enabled: false
     
-security:
-  basic:
-    enabled: false
-  user:
-    name: zuul
-    password: a39WqtRWAaXhckj
-    role: ADMIN
+#security:
+#  basic:
+#    enabled: false
+#  user:
+#    name: zuul
+#    password: a39WqtRWAaXhckj
+#    role: ADMIN
 
 logging:  
 #  file: logs/${spring.application.name}.log
