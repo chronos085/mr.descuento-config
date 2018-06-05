@@ -11,20 +11,11 @@ zuul:
   routes:
     security-server:
       path: /oauth/**
-#      url: http://localhost:8501/oauth
       serviceId: OAUTH-SERVER
       stripPrefix: false
-    hello-services:
-      path: /mo2/**
-      serviceId: MICROSERVICE-OAUTH2
-      stripPrefix: false
-    microservice:
-      path: /estado/**
-      serviceId: MICROSERVICE
-      stripPrefix: false
-    microservice2:
-      path: /estado2/**
-      serviceId: MICROSERVICE
+    ms-srdescuento:
+      path: /srdescuentos/v1/**
+      serviceId: MS-SRDESCUENTO
       stripPrefix: false
   ratelimit:
     enabled: false
