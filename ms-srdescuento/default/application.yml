@@ -1,6 +1,3 @@
-server:
-  context-path: /srdescuentos/v1
-
 spring:
   datasource:
     platform: postgres
