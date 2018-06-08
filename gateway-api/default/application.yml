@@ -14,7 +14,7 @@ zuul:
       serviceId: OAUTH-SERVER
       stripPrefix: false
     ms-srdescuento:
-      path: /producto/**
+      path: /srdescuentos/v1/**
       serviceId: MS-SRDESCUENTO
       stripPrefix: false
   ratelimit:
