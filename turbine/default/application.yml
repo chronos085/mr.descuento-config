@@ -3,7 +3,7 @@ turbine:
   app-config: MS-SRDESCUENTO
   combine-host-port: true
   
-turbine.instanceUrlSuffix.MS-SRDESCUENTO=:9090/admin/hystrix.stream
+turbine.instanceUrlSuffix.MS-SRDESCUENTO:":9090/admin/hystrix.stream"
 
 security:
   basic:
