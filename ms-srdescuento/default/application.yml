@@ -15,4 +15,6 @@ spring:
 eureka:
   instance:
     metadata-map:
-      management.port: ${PORT_ADMIN:9090}
+      management:
+        port: 9090
+        context-path: /admin
