@@ -11,3 +11,8 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
+      
+eureka:
+  instance:
+    metadata-map:
+      management.port: ${PORT_ADMIN:9090}
