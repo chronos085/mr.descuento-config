@@ -1,6 +1,7 @@
 turbine:
   cluster-name-expression: "'default'"
   app-config: MS-SRDESCUENTO
+  instanceUrlSuffix: /admin/hystrix.stream
   combine-host-port: true
 
 security:
