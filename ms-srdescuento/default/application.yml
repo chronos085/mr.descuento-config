@@ -17,4 +17,3 @@ eureka:
     metadata-map:
       management:
         port: 9090
-        path: /admin
