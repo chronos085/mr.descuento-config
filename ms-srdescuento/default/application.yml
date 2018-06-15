@@ -1,3 +1,5 @@
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+
 spring:
   datasource:
     platform: postgres
@@ -11,7 +13,9 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
-      
+
+
+
 eureka:
   instance:
     metadata-map:
