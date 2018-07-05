@@ -26,9 +26,11 @@ zuul:
       quota: 1000 #optional - request time limit per refresh interval window (in seconds)
       refresh-interval: 60 #default value (in seconds)
   
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+
 ribbon:
   ConnectTimeout: 30000
-  ReadTimeout: 600000
+  ReadTimeout: 60000
   eureka:
     enabled: true   
   eager-load:
