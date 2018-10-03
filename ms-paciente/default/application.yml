@@ -1,0 +1,21 @@
+backend:
+  db:
+    scheme: jdbc:oracle:thin:@
+    server: mnbdqa001-scan.naiss.local
+    port: 1521
+    database: PDBQASIG
+    username: OWN_SIGTE
+    password: wqe2jtWS
+    show-sql: false
+    driver-class-name: oracle.jdbc.OracleDriver
+    opts:
+    hibernate:
+      ddl-auto: none
+      dialect: org.hibernate.dialect.Oracle12cDialect
+
+
+eureka:
+  instance:
+    metadata-map:
+      management:
+        port: 9090
