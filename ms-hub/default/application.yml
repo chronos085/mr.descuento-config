@@ -15,6 +15,12 @@ spring:
       hibernate:
         temp:
           use_jdbc_metadata_defaults: false
+          
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: hub
 
 security:
   sessions: stateless
