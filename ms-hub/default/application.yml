@@ -20,6 +20,19 @@ spring:
       host: localhost
       port: 27017
       database: hub
+  rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+      
+      
+config:
+  queue:
+    exchange: exchange
+    queue: queue-planes-pago
+    routingkey: routingkey
+      
 
 security:
   sessions: stateless
