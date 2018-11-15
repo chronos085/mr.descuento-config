@@ -14,8 +14,8 @@ spring:
     properties:
       hibernate:
         default_schema: hub
-#        temp:
-#          use_jdbc_metadata_defaults: false      
+        temp:
+          use_jdbc_metadata_defaults: false      
   data:
     mongodb:
       host: localhost
