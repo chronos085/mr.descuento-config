@@ -14,7 +14,7 @@ spring:
     properties:
       hibernate:
         temp:
-          use_jdbc_metadata_defaults: false      
+          use_jdbc_metadata_defaults: false     
   data:
     mongodb:
       host: localhost
