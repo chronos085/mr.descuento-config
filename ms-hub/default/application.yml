@@ -3,7 +3,6 @@ spring:
     platform: postgres
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://10.40.4.79:5432/hub-desarrollo
-    schema: hub
     username: hub-desa
     password: Apimono123
   jpa:
@@ -13,6 +12,8 @@ spring:
     hibernate:
       ddl-auto: update
     properties:
+        hibernate:
+          default_schema: hub
         temp:
           use_jdbc_metadata_defaults: false       
   data:
