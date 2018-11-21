@@ -30,6 +30,8 @@ spring:
       
 config:
   environment: devel
+  # environment: qa
+  # environment: produc
   queue:
     exchange: exchange
     queue: queue-planes-pago
