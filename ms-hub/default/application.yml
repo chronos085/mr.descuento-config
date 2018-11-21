@@ -29,11 +29,11 @@ spring:
       
       
 config:
+  environment:devel
   queue:
     exchange: exchange
     queue: queue-planes-pago
-    routingkey: routingkey
-      
+    routingkey: routingkey   
 
 security:
   sessions: stateless
