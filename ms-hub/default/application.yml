@@ -29,7 +29,7 @@ spring:
       
       
 config:
-  environment:devel
+  environment: devel
   queue:
     exchange: exchange
     queue: queue-planes-pago
