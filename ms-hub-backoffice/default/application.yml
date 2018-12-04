@@ -20,22 +20,7 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: hub
-  rabbitmq:
-      host: localhost
-      port: 5672
-      username: guest
-      password: guest
-      
-      
-config:
-  environment: devel
-  # environment: qa
-  # environment: produc
-  queue:
-    exchange: exchange
-    queue: queue-planes-pago
-    routingkey: routingkey   
+      database: hub      
 
 security:
   sessions: stateless
