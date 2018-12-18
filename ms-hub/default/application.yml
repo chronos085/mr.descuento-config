@@ -34,7 +34,8 @@ config:
   # environment: produc
   queue:
     exchange: exchange
-    queue: queue-planes-pago
+    queue: primary
+    queue-consulta-planespago-sifco-endpoint: queue-planes-pago
     routingkey: routingkey   
 
 security:
