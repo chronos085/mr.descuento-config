@@ -36,6 +36,7 @@ config:
     exchange: exchange
     queue: primary
     queue-consulta-planespago-sifco-endpoint: queue.mapSifco-EndPoint
+    queue-consumo-planespago-hub: queue.consumo-planesPagoHub
     routingkey: routingkey   
 
 security:
