@@ -12,7 +12,6 @@ spring:
       username: guest
       password: guest
       
-      
 config:
   environment: devel
   # environment: qa
