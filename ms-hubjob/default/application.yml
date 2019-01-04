@@ -16,11 +16,11 @@ spring:
         default_schema: hub
 #        temp:
 #          use_jdbc_metadata_defaults: false      
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: hub
+  #data:
+  #  mongodb:
+   #   host: localhost
+   #   port: 27017
+   #   database: hub
   rabbitmq:
       host: localhost
       port: 5672
